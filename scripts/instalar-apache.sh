@@ -1,0 +1,11 @@
+#!/bin/bash
+
+sudo apt update -y
+
+sudo apt install apache2 -y
+
+sudo systemctl enable apache2
+sudo systemctl start apache2
+
+
+echo "¡Apache se ha instalado y configurado correctamente!"
